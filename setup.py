@@ -1,6 +1,8 @@
 # -*- coding: UTF-8 -*-
 from setuptools import setup
 
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
 
 setup(
     name='FlaskSQL',
@@ -10,6 +12,8 @@ setup(
     author='Jason Zhong',
     author_email='jasonyzhong06@gmail.com',
     description='MySQL integration for Flask',
+    long_description=long_description,
+    long_description_content_type='text/markdown',  # Set to markdown
     packages=['flaskext'],
     namespace_packages=['flaskext'],
     zip_safe=False,
@@ -21,7 +25,7 @@ setup(
     classifiers=[
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License',
+        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
