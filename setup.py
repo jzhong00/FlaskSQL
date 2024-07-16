@@ -3,13 +3,13 @@ from setuptools import setup
 
 
 setup(
-    name='Flask-MySQL',
-    version='1.5.2',
-    url='https://github.com/cyberdelia/flask-mysql/',
-    license='BSD',
-    author='Timothee Peignier',
-    author_email='timothee.peignier@tryphon.org',
-    description='Flask simple mysql client',
+    name='FlaskSQL',
+    version='1.0.0',
+    url='https://github.com/jzhong00/FlaskSQL/',
+    license='MIT',
+    author='Jason Zhong',
+    author_email='jasonyzhong06@gmail.com',
+    description='MySQL integration for Flask',
     packages=['flaskext'],
     namespace_packages=['flaskext'],
     zip_safe=False,
