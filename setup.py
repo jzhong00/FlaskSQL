@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='FlaskSQL',
-    version='1.0.0',
+    version='1.0.1',
     url='https://github.com/jzhong00/FlaskSQL/',
     license='MIT',
     author='Jason Zhong',
@@ -14,8 +14,8 @@ setup(
     description='MySQL integration for Flask',
     long_description=long_description,
     long_description_content_type='text/markdown',  # Set to markdown
-    packages=['flaskext'],
-    namespace_packages=['flaskext'],
+    packages=['flasksql'],
+    namespace_packages=['flasksql'],
     zip_safe=False,
     platforms='any',
     install_requires=[

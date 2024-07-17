@@ -35,7 +35,7 @@ Usage
 
 Initialize the extension : ::
 
-  from flaskext.mysql import MySQL
+  from flasksql.mysql import MySQL
   mysql = MySQL()
   mysql.init_app(app)
 
@@ -45,7 +45,7 @@ Obtain a cursor : ::
 
 Multiple connection example: ::
 
-  from flaskext.mysql import MySQL
+  from flasksql.mysql import MySQL
   
   my_database = MySQL(app, prefix="my_database", host="hostname, user="username", password="password", db="my_database", autocommit=True)
   our_database = MySQL(app, prefix="our_database", host="hostname, user="username", password="password", db="our_database", autocommit=True, cursorclass=pymysql.cursors.DictCursor)
