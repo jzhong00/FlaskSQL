@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='FlaskSQL',
-    version='1.0.1',
+    version='1.0.3',
     url='https://github.com/jzhong00/FlaskSQL/',
     license='MIT',
     author='Jason Zhong',
